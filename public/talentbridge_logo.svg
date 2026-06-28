@@ -1,0 +1,37 @@
+<svg width="560" height="160" viewBox="0 0 560 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tbGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="55%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#f43f5e"/>
+    </linearGradient>
+    <linearGradient id="tbLink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <filter id="tbGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <g transform="translate(20,20)" filter="url(#tbGlow)">
+    <circle cx="22" cy="84" r="13" fill="none" stroke="url(#tbLink)" stroke-width="5"/>
+    <circle cx="22" cy="84" r="4" fill="#22d3ee"/>
+    <circle cx="98" cy="40" r="13" fill="none" stroke="url(#tbLink)" stroke-width="5"/>
+    <circle cx="98" cy="40" r="4" fill="#8b5cf6"/>
+    <path d="M22 84 L52 110 L98 40"
+          fill="none" stroke="url(#tbGrad)" stroke-width="7"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(150,0)">
+    <text x="0" y="98" font-family="'Syne','Segoe UI',sans-serif"
+          font-size="52" font-weight="700" letter-spacing="-1">
+      <tspan fill="url(#tbGrad)">Talent</tspan><tspan fill="#e7eaf0">Bridge</tspan>
+    </text>
+    <text x="2" y="124" font-family="'DM Sans','Segoe UI',sans-serif"
+          font-size="14.5" font-weight="500" letter-spacing="2.5"
+          fill="#8b93a7">COORDINATION · NOT RESUMES</text>
+  </g>
+</svg>

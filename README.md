@@ -5,7 +5,7 @@
 Two Pulse accounts publish verified context, share permissioned links, run a **deterministic fit check**, and let agents **narrate** the result — before anyone wastes a call on comp mismatch or an ATS false negative.
 
 <p align="center">
-  <img src="./public/talentbridge_logo.svg" alt="TalentBridge" width="480" />
+  <img src="./public/talentbridge_logo.png" alt="TalentBridge" width="480" />
 </p>
 
 ## Problem
